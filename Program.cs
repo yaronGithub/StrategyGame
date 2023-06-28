@@ -466,19 +466,19 @@ namespace ConsoleApp1
                     {
                         int computerCoins = ComputerPlay(A, B, C, 'A', smart);
                         A -= computerCoins;
-                        Console.WriteLine("The computer has taken {0} coins from pile A.", computerCoins);
+                        Console.WriteLine("The computer had taken {0} coins from pile A.", computerCoins);
                     }
                     else if (ComputerPileOption(A, B, C, smart) == 'B')
                     {
                         int computerCoins = ComputerPlay(A, B, C, 'B', smart);
                         B -= computerCoins;
-                        Console.WriteLine("The computer has taken {0} coins from pile B.", computerCoins);
+                        Console.WriteLine("The computer had taken {0} coins from pile B.", computerCoins);
                     }
                     else if (ComputerPileOption(A, B, C, smart) == 'C')
                     {
                         int computerCoins = ComputerPlay(A, B, C, 'C', smart);
                         C -= computerCoins;
-                        Console.WriteLine("The computer has taken {0} coins from pile C.", computerCoins);
+                        Console.WriteLine("The computer had taken {0} coins from pile C.", computerCoins);
                     }
 
                     // checking who is the winner
